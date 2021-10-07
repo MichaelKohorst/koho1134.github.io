@@ -7,22 +7,36 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/foundation2.css">
 </head>
-<div class="grid-x" style="background-color:#8932a8 ">
-    <div class = "cell large-1 small-2">
-            <round><img src="Me.JPG" alt="Me"/></round>
-    </div>
-
-    <div class = "cell large-7 small-2"></div>
-
-    <div class = "cell large-4 small-2" style="padding-top: 3rem;" >
-            <p><shadow><a href="index.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;  
-            <a href="projects.html">PROJECTS</a>&nbsp;&nbsp;&nbsp;&nbsp; 
-            <a href="resume.html">RESUME</a>&nbsp;&nbsp;&nbsp;&nbsp; 
-            <a href="fun.html">FUN</a></shadow>
-            </p>
+<div class="hide-for-small-only">
+    <div class="grid-x grid-margin-x" style="background-color:#8932a8 ">
+           <div class = "cell large-12 small-12  margin-left:1rem;" >
+                <p><shadow><a href="index.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;  
+                <a href="projects.html">PROJECTS</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+                <a href="resume.html">RESUME</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+                <a href="fun.html">FUN</a></shadow>
+                </p>
+           </div>
     </div>
 </div>
-<div class="grid-x">
+
+
+    <div class="show-for-small-only">
+        <div class="off-canvas position-top" id="offCanvas" data-off-canvas>
+            <ul class="menu vertical">
+                <li><a href="index.html">HOME</a></li> 
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="resume.html">RESUME</a></li> 
+                <li><a href="fun.html">FUN</a></shadow></li>
+            </ul>
+        </div>
+        <div class="off-canvas-content" id="offCanvas" data-off-canvas-content style="background-color:#8932a8">
+            <button type="button"  style= "background-color:#8932a8" class="button" data-toggle="offCanvas">Open Menu</button>
+        </div>
+    </div>
+
+
+  <div class="off-canvas-content" data-off-canvas-content>
+    <div class="grid-x">
     <div class = "cell large-12 small-12">
         <h1><shadow>
             Resume
@@ -36,7 +50,7 @@
     <div class = "cell large-2 small-1"></div>
     <div class = "cell large-2 small-12">
         <h2>Education</h2>
-        <padP><ul><li>High School Diploma From  Elk River </li><li> University Of St.Thomas</li></ul></padP>
+        <padP><ul><li>High School Diploma From  Elk River <textLink><a href="https://www.isd728.org/ElkRiverHigh" target="_blank">Elk River High School Home Page</a></textLink> </li><li> University Of St.Thomas <textLink><a href="https://stthomas.edu/" target="_blank">St. Thomas Home Page</a></textLink></li></ul></padP>
     </div>
     <div class = "cell large-1 small-1"></div>
 
@@ -48,10 +62,15 @@
 
     <div class = "cell large-2 small-12">
         <h2>Awards/Honors</h2>
-        <padP><ul><li>Grandma said I am pretty cool</li></ul></padP>
+        <padP><ul><li>Pretty Cool Dude Award</li></ul></padP>
     </div>
     <div class = "cell large-2 small-1"></div>
 </div>
+
+  </div>
+
+
+
 
 
 

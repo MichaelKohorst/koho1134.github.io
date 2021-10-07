@@ -23,10 +23,6 @@ textLink a:hover{
 }
 
 
-round img{
-	border-radius: 30%;
-	padding:1rem;
-}
 
 rounded img{
 	border-radius: 10%;
@@ -38,12 +34,21 @@ body{
     background-color: white;
 }
 
-p{
+
+
+p, button{
 	font-size:1.5rem;
 	text-align: left;
 	font-family: Titillium Web;
 	margin-right: 1rem;
 	margin-left: 1rem;
+}
+
+smallHead p{
+	font-size:.75rem;
+	text-align: left;
+	font-family: Titillium Web;
+	
 }
 
 li{

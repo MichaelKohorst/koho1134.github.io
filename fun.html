@@ -7,60 +7,74 @@
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/foundation2.css">
 </head>
-<div class="grid-x" style="background-color:#8932a8 ">
-    <div class = "cell large-1 small-2">
-            <round><img src="Me.JPG" alt="Me"/></round>
+<div class="hide-for-small-only">
+    <div class="grid-x grid-margin-x" style="background-color:#8932a8 ">
+           <div class = "cell large-12 small-12  margin-left:1rem;" >
+                <p><shadow><a href="index.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;  
+                <a href="projects.html">PROJECTS</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+                <a href="resume.html">RESUME</a>&nbsp;&nbsp;&nbsp;&nbsp; 
+                <a href="fun.html">FUN</a></shadow>
+                </p>
+           </div>
     </div>
+</div>
 
-    <div class = "cell large-7 small-2"></div>
 
-    <div class = "cell large-4 small-2" style="padding-top: 3rem;" >
-            <p><shadow><a href="index.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;  
-            <a href="projects.html">PROJECTS</a>&nbsp;&nbsp;&nbsp;&nbsp; 
-            <a href="resume.html">RESUME</a>&nbsp;&nbsp;&nbsp;&nbsp; 
-            <a href="fun.html">FUN</a></shadow>
+    <div class="show-for-small-only">
+        <div class="off-canvas position-top" id="offCanvas" data-off-canvas>
+            <ul class="menu vertical">
+                <li><a href="index.html">HOME</a></li> 
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="resume.html">RESUME</a></li> 
+                <li><a href="fun.html">FUN</a></shadow></li>
+            </ul>
+        </div>
+        <div class="off-canvas-content" id="offCanvas" data-off-canvas-content style="background-color:#8932a8">
+            <button type="button"  style= "background-color:#8932a8" class="button" data-toggle="offCanvas">Open Menu</button>
+        </div>
+    </div>
+    
+
+
+    <div class="grid-x" >
+        <div class = "cell large-12 small-12">
+            <h1><shadow>
+                Fun
+            </shadow></h1>
+        </div>
+    </div>
+    <hr>
+    <div class="grid-x">
+        <div class = "cell large-2 small-12"></div>
+        <div class = "cell large-2 small-12">
+            <rounded><img src="ant.jpg"  alt="Timberwolves"/></rounded>
+        </div>
+        <div class = "cell large-6 small-12">
+            <p>
+                One of my favorite things to do is watch the Timberwolves. Even though we have one of the worst all-time records in American sports. I always come back to them to watch them lose. 
+                This year though will be different, I hope. The main players on the roster inlcude Karl-Anthony Towns, D'angelo Russell and my favorite Anthony Edwards. <textLink><a href="https://www.nba.com/timberwolves/" target="_blank">Timberwolves Home Page</a></textLink>
             </p>
+        </div>
+        <div class = "cell large-1 small-12"></div>
     </div>
-</div>
-<div class="grid-x" style="background-color:white ">
-    <div class = "cell large-12 small-12">
-        <h1><shadow>
-            Fun
-        </shadow></h1>
-    </div>
-</div>
-<hr>
-<div class="grid-x">
-    <div class = "cell large-2 small-12"></div>
-    <div class = "cell large-2 small-12">
-        <rounded><img src="ant.jpg"  alt="Timberwolves"/></rounded>
-    </div>
-    <div class = "cell large-6 small-12">
-        <p>
-            One of my favorite things to do is watch the Timberwolves. Even though we have one of the worst all-time records in American sports. I always come back to them to watch them lose. 
-            This year though will be different, I hope. The main players on the roster inlcude Karl-Anthony Towns, D'angelo Russell and my favorite Anthony Edwards. <textLink><a href="https://www.nba.com/timberwolves/" target="_blank">Timberwolves Home Page</a></textLink>
-        </p>
-    </div>
-    <div class = "cell large-1 small-12"></div>
-</div>
-<hr>
+    <hr>
 
-<div class="grid-x">
-    <div class = "cell large-2 small-12"></div>
-    <div class = "cell large-2 small-12">
-        <rounded><img src="kanye.jpg"  alt="Kanye"/></rounded>
-    </div>
-    <div class = "cell large-6 small-12">
-        <p>
-            In August I had the pleasure of going to see Kanye’s third and final listening party. At this event he played his new album Donda. In the middle of the field he had built a remodel of his childhood house. 
-            During his performance he performed an act where he set himself on fire near the end of his song Come to Life. 
+    <div class="grid-x">
+        <div class = "cell large-2 small-12"></div>
+        <div class = "cell large-2 small-12">
+            <rounded><img src="kanye.jpg"  alt="Kanye"/></rounded>
+        </div>
+        <div class = "cell large-6 small-12">
+            <p>
+                In August I had the pleasure of going to see Kanye’s third and final listening party. At this event he played his new album Donda. In the middle of the field he had built a remodel of his childhood house. 
+                During his performance he performed an act where he set himself on fire near the end of his song Come to Life. 
 
-        </p>
+            </p>
+        </div>
+        <div class = "cell large-1 small-12"></div>
     </div>
-    <div class = "cell large-1 small-12"></div>
+    <hr>
 </div>
-<hr>
-
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/vendor.js"></script>
 <script src="js/foundation.js"></script>
